@@ -1,8 +1,8 @@
 # Unitedremote
 
 The coding challenge is about implementing an app that lists shops nearby.
-- As a User, I can sign up using my email & password
-- As a User, I can sign in using my email & password
+- As a User, I can sign up using my username & password
+- As a User, I can sign in using my username & password
 - As a User, I can display the list of shops sorted by distance
 - As a User, I can like a shop, so it can be added to my preferred shops
 
