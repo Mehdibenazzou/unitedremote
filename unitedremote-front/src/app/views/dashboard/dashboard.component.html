@@ -1,0 +1,20 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-sm-6 col-md-4" *ngFor="let shop of shopsSorted">
+      <div class="card text-white bg-success">
+        <div class="card-header">
+          {{shop.nom}}
+        </div>
+        <div class="card-body">
+          <div style="text-align:center;">
+              <img src="assets/img/brand/shop.png" width="250" height="150">
+              <p style="margin-top: 10px">{{shop.address}}</p>
+              <p><strong>{{shop.distance}} km</strong></p>
+          </div>
+          <button (click)="likeShops(shop.id)" class="btn btn-block btn-primary" type="button">LIKE</button>
+          <button (click)="dislikeShop(shop)" class="btn btn-block btn-danger" type="button">DISLIKE</button>
+        </div>
+      </div>
+    </div><!--/.col-->
+  </div><!--/.row-->
+</div>

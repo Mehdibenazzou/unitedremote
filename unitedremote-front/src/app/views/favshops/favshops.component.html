@@ -1,0 +1,25 @@
+<div class="animated fadeIn">
+  <div *ngIf="isEmpty" class="alert alert-primary" role="alert">
+    The list is empty
+  </div>
+</div>
+<div class="animated fadeIn" *ngIf="!isEmpty">
+    <div class="row">
+      <div class="col-sm-6 col-md-4" *ngFor="let shop of favShops">
+        <div class="card text-white bg-danger">
+          <div class="card-header">
+            {{shop.nom}}
+          </div>
+          <div class="card-body">
+            <div style="text-align:center;">
+                <img src="assets/img/brand/shop.png" width="250" height="150">
+                <p style="margin-top: 10px">{{shop.address}}</p>
+                <p><strong>{{shop.distance}} km</strong></p>
+            </div>
+            <button (click)="dislikeShops(shop.id)" class="btn btn-block btn-primary" type="button">REMOVE</button>
+          </div>
+        </div>
+      </div><!--/.col-->
+    </div><!--/.row-->
+  </div>
+  
