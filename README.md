@@ -2,7 +2,7 @@
 
 The coding challenge is about implementing an app that lists shops nearby.
 
-## Technologies
+# Technologies
 
 The application uses the following technologies :
 
