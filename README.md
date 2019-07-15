@@ -8,7 +8,7 @@ The coding challenge is about implementing an app that lists shops nearby.
 
 Acceptance criteria: liked shops shouldn’t be displayed on the main page
 
-Bonus point (those items are optional):
+Bonus point:
 
 [BONUS] As a User, I can dislike a shop, so it won’t be displayed within “Nearby Shops” list during the next 2 hours
 
